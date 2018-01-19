@@ -1,5 +1,5 @@
 # Initialise device config
-$(call inherit-product, device/samsung/zerofltexx/full_zerofltexx.mk)
+$(call inherit-product, device/samsung/zeroflteduo/full_zeroflteduo.mk)
 
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
@@ -11,8 +11,8 @@ TARGET_SCREEN_WIDTH := 1440
 $(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="zerofltexx" \
+    PRODUCT_NAME="zeroflteduo" \
     TARGET_DEVICE="zeroflte"
 
-PRODUCT_NAME := aokp_zerofltexx
-PRODUCT_DEVICE := zerofltexx
+PRODUCT_NAME := aokp_zeroflteduo
+PRODUCT_DEVICE := zeroflteduo

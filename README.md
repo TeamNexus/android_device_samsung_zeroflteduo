@@ -1,4 +1,4 @@
-# Device Tree for the Samsung Galaxy S6 International/India (SM-G920F/I)
+# Device Tree for the Samsung Galaxy S6 International Dual-SIM (SM-G920FD)
 
 -> Work In Progress. <-
 
