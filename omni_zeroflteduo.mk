@@ -1,8 +1,6 @@
 # Initialise device config
 $(call inherit-product, device/samsung/zeroflteduo/full_zeroflteduo.mk)
 
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1440
 
 # Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
