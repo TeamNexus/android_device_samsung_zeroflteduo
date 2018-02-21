@@ -35,8 +35,5 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/zeroflteduo/include
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_zerofltexx_defconfig
 
-# Partitions
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200
-
 # Radio
 BOARD_MODEM_TYPE := ss333
